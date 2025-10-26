@@ -11,14 +11,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body suppressHydrationWarning>
-        {/* <header style={{ backgroundColor: "lightblue", padding: "1rem" }}>
+        <header style={{ backgroundColor: "lightblue", padding: "1rem" }}>
           <p>Header</p>
         </header>
-        {children}*/}
-        {/*}
+        {children}
         <footer style={{ backgroundColor: "ghostwhite", padding: "1rem" }}>
           <p>Footer</p>
-        </footer> */}
+        </footer>
       </body>
     </html>
   );
